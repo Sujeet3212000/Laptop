@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Shopping Portal
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -14,7 +14,21 @@
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>Apple Laptop</ion-card-subtitle>
+        <ion-card-title>AMZ Version</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+
+      </ion-card-content>
+    </ion-card>
+  </div>
+      <p><strong>{{text}}</strong></p>
+      <ion-button (click)="onChangeText()">Change Name</ion-button>
+  <div>
+
   </div>
 </ion-content>
